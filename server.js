@@ -13,7 +13,7 @@ const app = express();
 app.use(cors({
         origin: [
             "http://localhost:5173",
-            "https://thunderous-stroopwafel-86ccbc.netlify.app/api"
+            "https://thunderous-stroopwafel-86ccbc.netlify.ap"
         ],
         credentials: true,
     }));
