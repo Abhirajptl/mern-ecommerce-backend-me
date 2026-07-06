@@ -13,7 +13,7 @@ const app = express();
 app.use(cors({
         origin: [
             "http://localhost:5173",
-            "https://mern-ecommerce-backend-me.onrender.com/api"
+            "https://thunderous-stroopwafel-86ccbc.netlify.app/api"
         ],
         credentials: true,
     }));
